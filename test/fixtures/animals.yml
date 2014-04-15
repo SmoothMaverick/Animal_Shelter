@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  arrival_date: 2014-03-17
+  care_plan: 1
+  shelter: 1
+  size: MyString
+  type: 
+  status: 1
+  adopter: 1
+
+two:
+  name: MyString
+  arrival_date: 2014-03-17
+  care_plan: 1
+  shelter: 1
+  size: MyString
+  type: 
+  status: 1
+  adopter: 1

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  role: MyString
+  schedule: MyString
+  start_date: 2014-03-17
+  end_date: 2014-03-17
+  rank: 1
+  shelter: 1
+
+two:
+  name: MyString
+  role: MyString
+  schedule: MyString
+  start_date: 2014-03-17
+  end_date: 2014-03-17
+  rank: 1
+  shelter: 1

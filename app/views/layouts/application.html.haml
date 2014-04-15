@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title PetsOmatic
+    = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turobolinks-track" => true
+    = csrf_meta_tags
+    = render 'layouts/shim'
+  %body
+    -# = render 'layouts/header'
+    -# = yield
+    -# = render 'layouts/footer'
+
+    = render 'layouts/header'
+    .container
+      .row
+        .col-md-3#leftCol
+          = render 'layouts/sidebar'
+        .col-md-9
+          = yield
+    = render 'layouts/footer'
